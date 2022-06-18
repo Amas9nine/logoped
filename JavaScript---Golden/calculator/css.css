@@ -1,0 +1,53 @@
+body{ 
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+height: 100vh;
+}
+.section{
+	border: 2px dashed black;
+	border-radius:150px ;
+	background-color: greenyellow;	
+	
+}
+#n2,#n1{
+	height: 20px;
+	width: 20px;
+	border: white 3px solid;
+}
+
+#n2:hover{
+	border: rgb(106, 200, 236) 4px solid;
+
+	height: 50px;
+	width: 50px;
+	font-size: large;
+}
+#n1:hover{
+	border: rgb(106, 200, 236) 4px solid;
+
+	height: 50px;
+	width: 50px;
+	font-size: large;
+}
+p{
+	display: flex;
+	justify-content: center;
+}
+button{
+	padding: 50px 50px;
+border-radius: 50px;
+}
+button div{
+font-size: 50px;
+}
+input{
+/* padding: 50px; */
+border: 2px solid #b8a8a7;
+border-radius: 20px;
+}
+.big{
+	font-size: 50px;
+}

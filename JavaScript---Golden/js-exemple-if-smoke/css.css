@@ -1,0 +1,49 @@
+
+.section{
+	
+	border: 1px solid black;
+	
+}
+.section div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: blue;
+	height: 25vh;
+width: 100%;
+border: 1px solid black;
+}
+p{
+	font-size: 80px;
+}
+
+@media (max-width:1200px){
+	.section div {
+	
+		background-color: red;
+		height: 25vh;
+	width: 100%;
+	border: 1px solid black;
+	}
+	
+}
+@media (max-width:1200px){
+	p{
+		font-size: 50px;
+	}
+}
+
+@media(max-width:700px){
+	.section {
+		display: flex;
+		flex-direction: ;
+		color: white;
+		background-color: blueviolet;
+	}
+	
+}
+@media (max-width:700px){
+	p{
+		font-size: small;
+	}
+}

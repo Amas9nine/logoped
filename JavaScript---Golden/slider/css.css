@@ -1,0 +1,16 @@
+.f1{
+	background-image: url(../galary/react.jpeg);
+
+	
+}
+.f2{
+	background-image: url(../galary/google.jpg);
+}
+.f3{
+	background-image: url(../galary/javascript.png);
+}
+body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
