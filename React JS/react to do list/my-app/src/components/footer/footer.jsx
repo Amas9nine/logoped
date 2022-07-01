@@ -2,7 +2,8 @@ import './footer.css'
 // props = {}
 let Footer = (props) => {
 	const onDelete = ()=>{
-		alert(props.text)
+props.onDelete(props.id)
+
 	}
 	return (
 		<div action="" className='radio'>

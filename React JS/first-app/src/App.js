@@ -8,10 +8,7 @@ import instagram from './instagram.png'
 import linkedin from './linkedin.png'
 import twitter from './twitter.png'
 import AfterLife from './afterLIFE/afterLife';
-import Kamaz from './Kamaz.png';
-import cake from './cake.png'
-import cashBack from './cashBack.png'
-import fastDelivery from './fastDelivery.png'
+
 
 function App() {
   return (
@@ -47,7 +44,10 @@ function App() {
       </main>
 
       <div className='afterLIFE'>
-        <AfterLife />
+        <AfterLife img='./Kamaz.png'   textBIG='Free Shipping' small='Last Chance! Free shipping on all orders ends today.'/>
+        <AfterLife img='./cake.png'  textBIG='Quick Packaging' small='Last Chance! Free shipping on all orders ends today.'/>
+        <AfterLife img='./cashBack.png'  textBIG='100% Money Back' small='Last Chance! Free shipping on all orders ends today.'/>
+        <AfterLife img='./fastDelivery.png'   textBIG='Fast Delivery' small='Last Chance! Free shipping on all orders ends today.'/>
       </div>
 
       {/* after after life life */}
