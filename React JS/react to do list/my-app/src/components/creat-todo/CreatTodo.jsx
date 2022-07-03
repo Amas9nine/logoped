@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import './creat-todo.css'
 
@@ -7,15 +8,11 @@ function CreatTodo(props) {
 
 	const FuncSubmitA = (event) => {
 		event.preventDefault()
-		props.setState([... 
-			props.state, 
-			{ text: inputValue,
-				 status: false,
-				 id:Date.now()}])
+		props.addNew(inputValue)
 		setInputValue('')
 	}
 
-	const HandleValue =(event)=>{
+	const HandleValue = (event) => {
 		setInputValue(event.target.value)
 	}
 
