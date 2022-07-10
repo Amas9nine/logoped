@@ -1,0 +1,27 @@
+.afterMenu{ 
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content:flex-end;
+}
+.afterMenu div{
+	display: flex;
+	justify-content: center;
+}
+img{
+	width: 80%;
+}
+h1{
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+p{
+	width: 40%;
+}
+.right{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}

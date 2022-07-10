@@ -1,0 +1,13 @@
+.square{
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	box-shadow: 10px 5px 5px rgb(201, 201, 201);
+	flex-flow: wrap;
+	height: 120vh;
+}
+
+.last_Adt{
+	display: flex;
+	justify-content: center;
+}

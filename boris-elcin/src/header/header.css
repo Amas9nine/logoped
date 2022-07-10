@@ -1,0 +1,23 @@
+header {
+	background-color: #25B8E7;
+	margin:  0 auto;
+	height: 15.2vh;
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+
+header .headerLeft ,.headerRight {
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+
+.headerRight{
+	display: flex;
+	justify-content: space-between;
+	width: 16%;
+	
+}
