@@ -1,5 +1,5 @@
 .afterMenu{ 
-	height: 100vh;
+	height: 90vh;
 	display:flex;
 	flex-direction: column;
 	justify-content:flex-end;
@@ -11,17 +11,30 @@
 img{
 	width: 80%;
 }
-h1{
-	height: 20vh;
+img:hover{
+	box-shadow: 12px 12px 2px 1px rgb(201, 201, 201);
+	margin: 40px;
+}
+.about_Us{
+	height: 25vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.about_You{
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
 }
 p{
 	width: 40%;
 }
 .right{
+	
 	display: flex;
 	flex-direction: column;
+	
+	
 	width: 50%;
 }

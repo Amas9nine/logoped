@@ -3,7 +3,7 @@ import './afterMenu.css'
 function AfterMenu() {
 	return (
 		<div className='afterMenu'>
-			<h1>
+			<h1 className='about_Us'>
 				О нас
 			</h1>
 			<div>
@@ -11,7 +11,7 @@ function AfterMenu() {
 					<img src="./home.png" alt="" />
 				</div>
 				<div className='right'>
-					<h1>
+					<h1 className='about_You'>
 						Кто мы?
 					</h1>
 					<div>
