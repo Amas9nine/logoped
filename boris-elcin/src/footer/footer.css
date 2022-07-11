@@ -7,4 +7,10 @@
 }
 .footer h1{
 	font-size:200px;
+	
+}
+.footer h1:hover{
+	margin-left: 50px;
+	border-radius: 20px;
+	box-shadow: 10px 5px 5px rgb(201, 201, 201), -1em 0 .4em rgb(201, 201, 201);
 }

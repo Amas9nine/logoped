@@ -5,18 +5,18 @@ function Header() {
 	return (
 		<header>
 			<div className='headerLeft'>
-			<img src="LOGO.png" alt="" />
+				<img src="LOGO.png" alt="" />
 			</div>
 
 			<div className='headerRight'>
 				<div>
-					О нас
+					<a href="#" target="_blank">	О нас</a>
 				</div>
 				<div>
-					Контакты
+					<a href="#" target="_blank">Контакты</a>
 				</div>
 				<div>
-					Войти
+					<a href="#" target="_blank">Войти</a>
 				</div>
 			</div>
 		</header>

@@ -8,7 +8,7 @@ function AfterMenu() {
 			</h1>
 			<div>
 				<div className='left'>
-					<img src="./home.png" alt="" />
+					<img className='img' src="./home.png" alt="" />
 				</div>
 				<div className='right'>
 					<h1 className='about_You'>

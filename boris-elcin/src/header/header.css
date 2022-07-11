@@ -3,21 +3,29 @@ header {
 	margin:  0 auto;
 	height: 15.2vh;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	
 	
 }
 
-header .headerLeft ,.headerRight {
-	color: white;
-	display: flex;
-	align-items: center;
-}
+
 
 
 .headerRight{
 	display: flex;
 	justify-content: space-between;
-	width: 16%;
-	
+	width: 20%;
+	align-items: center;
+	margin-right: 40px;
+	color: white;
+}
+.headerLeft{
+	width: 25%;
+display: flex;
+justify-content: right;
+align-items: center;
+}
+a{
+	text-decoration: none;
+	color: white;
 }

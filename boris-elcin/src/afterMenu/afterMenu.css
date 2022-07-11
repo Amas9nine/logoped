@@ -8,10 +8,10 @@
 	display: flex;
 	justify-content: center;
 }
-img{
+.img{
 	width: 80%;
 }
-img:hover{
+.img:hover{
 	box-shadow: 12px 12px 2px 1px rgb(201, 201, 201);
 	margin: 40px;
 }

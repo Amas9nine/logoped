@@ -2,10 +2,11 @@ import React from 'react'
 import './card.css'
 
 function Card(props) {
-	// const onDelete = () => {
-	// 	props.onDelete(props.id)
-	// }
-
+// 
+	const onDelete = () => {
+		props.onDelete(props.id)
+	}
+// 
 	return (
 		<div className='area_of_card'>
 			<div className='card'>
@@ -21,7 +22,7 @@ function Card(props) {
 				</div>
 				<br />
 				<div className='divBTN'>
-					<button  >Купить</button>
+					<button onClick={onDelete} >Купить</button>
 				</div>
 				<hr />
 			</div>
