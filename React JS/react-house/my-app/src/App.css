@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+	padding: 55px 8%;
+}
+
+.title {
+	text-align: center;
+	font-weight: 700;
+	line-height: 48px;
+	color: #000000;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards__wrapper {
+	margin: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	grid-row-gap: 50px;
+	grid-column-gap: 20px;
+}
