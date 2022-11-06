@@ -1,0 +1,22 @@
+.wrapp {
+	background-color: #8ccd00;
+}
+
+.container {
+	display: flex;
+	color: white;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #8ccd00;
+}
+
+.greenLineleft {
+	width: 50%;
+}
+
+.greenLineRight {
+	width: 50%;
+}
+.greenLineRight div{
+	text-align: center;
+}

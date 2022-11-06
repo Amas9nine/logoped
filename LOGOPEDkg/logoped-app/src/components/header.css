@@ -1,0 +1,39 @@
+.header {
+  
+  line-height: 1.5;
+  font-size: 1rem;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.containerH {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  justify-content: space-between;
+
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  column-gap: 20px;
+}
+
+.two {
+
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.underTWO {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,42 @@
+.insta{
+	
+	background-color: hsl(207, 7%, 68%,0.9);
+}
+.insta h1{
+	text-align: center;
+}
+.insta h1 a{
+	text-decoration: none;
+	color: #007bff;
+}
+.containerI{
+	width: 80%;
+	margin: 0 auto;
+	height: 40vh;
+	background-color:  hsl(207, 7%, 68%,0.9);
+}
+.underInstaH1{
+	padding:5vh;
+}
+.containerI{
+	display: flex;
+	align-items: center;
+}
+.instaLeft{
+	display: flex;
+	align-items: center;
+	column-gap: 40px;
+	font-size:30px
+}
+/* .instaRight{
+	
+} */
+.rubick{
+	display: flex;
+	background-color: #8ccd00;
+	height: 200px;
+	width: 30px;
+}
+.instaLeft h1{
+width: 43%;
+}

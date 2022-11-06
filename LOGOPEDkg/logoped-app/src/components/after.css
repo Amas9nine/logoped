@@ -1,0 +1,33 @@
+.after {
+	padding-top: 15vh;
+	display: flex;
+	justify-content: space-between;
+} 
+
+.afterLeft {
+	width: 49%;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.afterRight {
+	display: flex;
+	justify-content: right;
+}
+
+.afterRight img {
+	width: 50%
+}
+
+.readMore  a{
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: #8ccd00;
+
+}
+.readMore{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+}

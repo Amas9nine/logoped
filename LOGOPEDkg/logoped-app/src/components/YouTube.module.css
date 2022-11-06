@@ -1,0 +1,79 @@
+.wrapp {
+	/* background-color: #fff; */
+	background-color: black;
+}
+
+.container {
+	display: flex;
+	background-color: fff;
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 15vh;
+}
+
+.left {
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+
+.left div {
+	color: #454545;
+	font-size: 50px;
+	text-align: center;
+}
+
+.right {
+	display: flex;
+	width: 50%;
+}
+
+.right div {
+	display: flex;
+	justify-content: center;
+
+	flex-wrap: wrap;
+
+}
+
+.right div img {
+	gap: 20px;
+	width: 150px;
+}
+
+.rubickMini {
+	display: flex;
+	background-color: #8ccd00;
+	height: 100px;
+	width: 30px;
+}
+
+/* second */
+.container2 {
+	padding-top: 15vh;
+	background-color: fff;
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+/* slider begin */
+#slick {
+	color: white;
+}
+
+.card {
+	width: auto;
+	margin: 0 auto;
+
+}
+
+.card img {
+	width: 100%;
+}
+
+.App {
+	margin-top: 10%;
+	text-align: center;
+}
